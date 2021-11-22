@@ -1,8 +1,7 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
+* {    
     margin: 0;
     padding: 0;
-    box-sizing: border-box
-    
+    box-sizing: border-box; 
 }
 body{
     text-align: center;
@@ -65,13 +64,14 @@ header > div > nav > a.cart > img {
 
 
 footer{ 
-    padding: 96px 2px; 
+    padding: 96px 0px; 
     
 }
 
 footer > div{ 
+    padding: 0px; 
     overflow: hidden;
-    background: #f16;
+    border: 3px solid aqua;  
 
     
 }
@@ -80,94 +80,106 @@ footer > div{
 footer > div > div{ 
     float: left;
     width: 33.333333%; 
-    
+    border: 5px; 
+    border-color: aqua; 
 }
 
 footer > div > .logo{
-    background: #f16;
-    
+    vertical-align: middle; 
+    padding: 56px 10px; 
+    background: grey;
+   
 
 }
-footer > div > .logo > a{ 
-
+footer > div > .logo > a{  
 
 }
-footer > div > .logo > a > img{ 
-
-
+footer > div > .logo > a > img { 
+    height: 48px;
+    margin: 5px 5px;
+    vertical-align: middle;
 }
 
 
 footer > div > .social { 
- background: black;
-
+    padding: 56px 10px; 
+    background: white; 
+    vertical-align: middle; 
 }
 
 
 
 footer > div > .social > a{ 
-
-width: 48px;
+    width: 48px;
 }
 
-footer > div > .social > a > img{ 
-    
-width: 48px;
+footer > div > .social > a > img{     
+    height: 48px;
+    margin: 5px 5px;
+    vertical-align: middle;
 
 }
 
 
 footer > div > .nav{
-    background: blue;
+    background: grey;
 /*    height: 40px; */
+    padding: 10px; 
 
 }
 
 footer > div > .nav > .links {
-    
+    background: grey; 
+   
 }
 
 footer > div > .nav > .links > p{
-        font: 400 24px/48px arial;
+    font: 400 15px/20px arial;
     vertical-align: middle;
+    text-decoration: underline
 }
 
-footer > div > .nav > .links > a {
-    
-}
 
-footer > div > .nav > .links > a {
-    
+footer > div > .nav > .links > .button {
+     font: 400 15px/20px arial;
+    vertical-align: middle;
+    display: block 
 }
-
-footer > div > .nav > .links > a {
-    
+footer > div > .nav > .links > .button:hover{
+    color: #707070; 
+    cursor: pointer;
 }
-
 
 footer > div > .contact { 
 
 } 
 
 footer > div > .nav > .contact > p{
-        font: 400 20px/20px arial;
-    vertical-align: middle;.
+    font: 400 15px/20px arial;
+    margin: 5px; 
+      
 }
 
-footer > div > .nav > .contact > a {
+footer > div > .nav > .contact > a { 
+}
+
+
+footer > div > .nav > .contact > .button {
+
+background: white;
+    text-decoration: none;
+    color: black;
+    padding: 9px 5px;
+    text-transform: uppercase;
+    border: 3px solid #709dcc;
+    display: inline-block;
     
 }
-
-footer > div > .nav > .contact > a > p{
-        font: 400 24px/48px arial;
-    vertical-align: middle;.
-    
-}
-
-
-
-
-
+footer > div > .nav > .contact > .button:hover{
+    background: #666666;
+    color: white;
+    cursor: pointer;
+    top: -12px;}
 
 
 .about-me{
@@ -215,7 +227,7 @@ footer > div > .nav > .contact > a > p{
     font-family: 'Yaldevi', sans-serif;
     
 }
-a.button:hover{
+.about-me > a.button:hover{
     background: #BC8F8F;
     color: #fff;
     
