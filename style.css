@@ -296,5 +296,60 @@ footer > div > .nav > .contact > .button:hover{
     color: #fff;
     
     top: -12px;
-}                                                                                       *{
+}                                                                                       
    
+    
+    
+    
+    
+    
+.product-details{
+    padding:72px 0 0 0;
+}
+.product-details > .primary-photo{
+    width:49%
+    display:inline-block;
+    vertical-align:middle;
+}
+.product-details > .primary-photo > img{
+    width: 100%;     
+}
+.product-detals > ,detals {
+     width: 49%;
+    padding: 24px;
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;  
+}
+.product-details > .details > h1{
+    font: 900 30px/36px arial;
+    text-transform: uppercase;
+}
+.product-details > .details > h2.price{
+    margin: 12px 0 0 0;
+    font: 200 20px/36px "Stick No Bills", arial;
+}
+.product-details > .details > button{
+    padding: 6px 18px
+    margin: 12px 0 0 0;
+    font: 900 20px/36px Verdana, Arial; 
+    text-transform: uppercase;
+    border-radius: 9px;
+    border: none;
+    background: #f16;
+    color: #fff;
+}
+.product-details > .details > p {
+    margin: 24px 0 0 0;
+    font: 200 20px/30px Verdana, Arail;
+}
+
+
+@media all and (max-width:960px) {
+    .product-details > .primary-photo{
+        display:block;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 480px:
+    } 
+}
